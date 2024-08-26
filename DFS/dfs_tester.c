@@ -2,7 +2,7 @@
 #include <stdlib.h>
 int graph[100][100], visited[100];
 int count = 0, op_count = 0, dfscount = 0;
-int cycle = 1;
+int cycle = 0;
 
 void dfs(int n, int start, int parent)
 {
